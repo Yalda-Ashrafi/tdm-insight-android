@@ -1,0 +1,54 @@
+package my.edu.aiu.app.tdm_insight_android.ui.theme
+
+import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.darkColorScheme
+import androidx.compose.material3.dynamicDarkColorScheme
+import androidx.compose.material3.dynamicLightColorScheme
+import androidx.compose.material3.lightColorScheme
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
+
+private val DarkColorScheme = darkColorScheme(
+    primary = EmeraldGreen,
+    secondary = DeepTeal,
+    tertiary = LightCyan,
+    onPrimary = Color.White,
+    onSurface = Color.White,
+    background = CharcoalGray
+)
+
+private val LightColorScheme = lightColorScheme(
+    primary = EmeraldGreen,
+    secondary = DeepTeal,
+    tertiary = LightCyan,
+    background = Color.White,
+    surface = Color.White,
+    onPrimary = Color.White,
+    onSecondary = Color.White,
+    onBackground = CharcoalGray,
+    onSurface = CharcoalGray
+)
+
+@Composable
+fun TdminsightandroidTheme(
+    darkTheme: Boolean = isSystemInDarkTheme(),
+    dynamicColor: Boolean = true,
+    content: @Composable () -> Unit
+) {
+    val colorScheme = when {
+        dynamicColor -> {
+            val context = LocalContext.current
+            if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
+        }
+        darkTheme -> DarkColorScheme
+        else -> LightColorScheme
+    }
+
+    MaterialTheme(
+        colorScheme = colorScheme,
+        typography = TdmTypography, // ✅ uses your custom typography
+        content = content
+    )
+}

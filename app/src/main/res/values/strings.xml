@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Vancomycin TDM Calculator</string>
+    <string name="welcome_title">Welcome to TDM Insight</string>
+    <string name="workflow_title">Select Workflow</string>
+    <string name="review_title">Review Patient Inputs</string>
+    <string name="about_title">About TDM Insight</string>
+    <string name="results_title">Calculation Results</string>
+    <string name="explanation_title">Explanation of Results</string>
+    <string name="patient_case_title">Patient Case Entry</string>
+    <string name="input_form_title">Therapy Input Form</string>
+    <string name="share_summary">Share Summary</string>
+
+</resources>

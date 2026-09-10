@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lavender_light">#EAE6F9</color>
+    <color name="beige_cream">#F5EDE3</color>
+    <color name="mist_gray">#F2F4F7</color>
+    <color name="deep_navy">#1E1E2F</color>
+    <color name="soft_purple">#9C89B8</color>
+    <color name="peach_tint">#FAD4C0</color>
+    <color name="aqua_accent">#B8E0D2</color>
+    <color name="soft_mint">#E0F2F1</color>
+</resources>
