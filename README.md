@@ -1,4 +1,5 @@
-# TDM Insight: Vancomycin TDM Calculator ⚗️
+
+# TDM Insight: Vancomycin TDM Calculator 
 
 ![Branding](tdm_logo.png)
 
@@ -8,25 +9,24 @@ Developed for the **Mobile Application Development (CDE2313)** course at Albukha
 
 ---
 
-## 📽️ Clinical Evidence
-
-Below are the posters representing the development and clinical logic of the application.
-
-| 1. Development | 2. Results & Information |
-| :---: | :---: |
-| ![Development](images/poster_1_development.png) | ![Results Info](images/poster_2_results_info.png) |
-
-| 3. Input & Simulation | 4. Home & Review |
-| :---: | :---: |
-| ![Input Simulation](images/poster_3_input_simulation.png) | ![Home Review](images/poster_4_home_review.png) |
+##  Clinical Evidence & Demo
 
 > [!TIP]
-> **Video Demonstration**: [Watch the App in Action](PASTE_YOUR_VIDEO_LINK_HERE)  
-> **Full Quality Posters**: [View on Google Drive](PASTE_YOUR_SCREENSHOTS_LINK_HERE)
+> **Video Demonstration**: [Watch the App in Action](https://drive.google.com/file/d/1a8UHGF8QKZE8kJvKSwlI-lY9Bhfpts9q/view?usp=sharing)  
+> **High-Resolution Screenshots**: [View all Clinical Screens on Google Drive](https://drive.google.com/drive/folders/1Ua8sdWjHrsQ6HtDvcx2ea2Q24_QBugrO?usp=sharing)
+
+| Welcome Screen | Clinical Input | Interactive Graph |
+| :---: | :---: | :---: |
+| ![Welcome](app/src/main/res/drawable/vancomycin_vial.jpg) | *Professional Form* | *Dynamic Simulation* |
 
 ---
+Below are the posters representing the development and clinical logic of the application.
+![Image](https://github.com/Yalda-Ashrafi/tdm-insight-android/blob/6a66c9d130aeff59258e80bd693670fcc625e362/images/poster_4_home_review.png)
+![Image](https://github.com/Yalda-Ashrafi/tdm-insight-android/blob/6a66c9d130aeff59258e80bd693670fcc625e362/images/poster_3_input_simulation.png)
+![Image](https://github.com/Yalda-Ashrafi/tdm-insight-android/blob/6a66c9d130aeff59258e80bd693670fcc625e362/images/poster_2_results_info.png)
+![Image](https://github.com/Yalda-Ashrafi/tdm-insight-android/blob/6a66c9d130aeff59258e80bd693670fcc625e362/images/poster_1_development.png)
 
-## 🚀 Key Clinical Features
+##  Key Clinical Features
 
 - **Dynamic Clinical Workflows**: Forms automatically adapt based on your selection (**Pre**, **Post**, or **Pre + Post**).
 - **Interactive PK Simulation**: A live Canvas-based graph that redraws in real-time as you adjust Dose, Interval, or Infusion time.
@@ -54,19 +54,18 @@ The app features a clean 9-page architecture designed for clinical efficiency:
 
 ---
 
-## 👨‍💻 Team AIU Task Division
+## Team AIU Task Division
 
 Our team meticulously divided the responsibilities to ensure the highest clinical and technical standards.
 
 | Developer | Responsibilities & Ownership |
-| :--- | :--- |
-| **Yalda Ashrafi** | **Project Lead, Engine Architect & Version Control Lead**: Designed the core Calculation Engine and PK Formulas. Acted as the **System Integrator**, responsible for merging all modules, managing the GitHub repository/branch orchestration, and ensuring architectural consistency across Navigation, Validation, and UI Themes. |
-| **Benat Siraj** | **Visualization & Logic Lead**: Custom Canvas Graphing (ConcentrationGraph), PDF Export System (SummaryExporter), History Feature, CameraX Integration, Patient Case Entry Screen, and project maintenance (README, CHANGELOG, AI Transparency Log). |
-| **Mohammad Elyas Yameen** | **Components & UI/UX Lead**: Reusable Form Components, Therapy Input Form, Results Screen, Explanation Screen (Step-by-step math UI), Resource Management (Values, Drawables), Wireframes, and high-fidelity screenshots for project documentation. |
+|---|---|
+| **Yalda Ashrafi** | **Project Lead & Engine Architect:** Core Calculation Engine, Pharmacokinetic Formulas, Calculation Explainer, Input Validation, Data Models, Navigation, UI Theme architecture, Main/Welcome/Workflow/Review/About screens, GitHub & project configuration, testing, system integration, and primary technical documentation. |
+| **Benat Siraj** | **Visualization & Logic Lead:** Concentration Graph, PDF Export System, History Feature, CameraX Integration, Patient Case Entry Screen, project maintenance, README, CHANGELOG, and AI Transparency Log. |
+| **Mohammad Elyas Yameen** | **Components & UI/UX Lead:** Reusable Form Components, Therapy Input Form, Results Screen, Explanation Screen, Resource Management, Wireframes, and high-fidelity screenshots for project documentation. |
 
----
 
-## 🛠️ Installation Guide
+##  Installation Guide
 
 Follow these steps to set up and run the project locally from the **main** branch:
 
@@ -81,7 +80,7 @@ Follow these steps to set up and run the project locally from the **main** branc
 
 ---
 
-## 🛠️ Technical Stack
+##  Technical Stack
 - **Language**: Kotlin
 - **UI**: Jetpack Compose (Material 3)
 - **APIs**: CameraX, PdfDocument API, Coil 3
@@ -89,8 +88,10 @@ Follow these steps to set up and run the project locally from the **main** branc
 
 ---
 
-## ⚖️ Clinical Disclaimer
+##  Clinical Disclaimer
 *This is an academic prototype for educational purposes only. It is not intended for real-world clinical decision-making. All demonstration data is fictional.*
 
 **Instructor**: Ts. Mohd Zulkifli Mohd Zaki  
 **Albukhary International University (AIU)**
+
+
