@@ -19,61 +19,43 @@ Developed for the **Mobile Application Development (CDE2313)** course at Albukha
 
 ---
 
-## 🚀 Key Clinical Features (Latest Updates)
+## 🚀 Key Clinical Features
 
-- **Dynamic Clinical Workflows**: Forms automatically adapt based on your selection (**Pre**, **Post**, or **Pre + Post**). Only required fields are shown to reduce cognitive load.
+- **Dynamic Clinical Workflows**: Forms automatically adapt based on your selection (**Pre**, **Post**, or **Pre + Post**).
 - **Interactive PK Simulation**: A live Canvas-based graph that redraws in real-time as you adjust Dose, Interval, or Infusion time.
 - **Therapeutic Target Windows**: The graph features **Green (Trough)** and **Yellow (Peak)** bands to visually guide the clinician.
-- **Professional Math Explanation**: Every result includes a step-by-step mathematical breakdown showing the exact formula, variable substitution, and intermediate values.
-- **Smart Validation System**:
-    - **Red Asterisk (*)** indicates mandatory medical data.
-    - **Clinical Range Guidance**: Placeholders guide users toward realistic values (e.g., Age 18-120).
-    - **Math Safety**: Prevents division-by-zero or logarithmic errors in renal function calculations.
-- **Clinical Reporting**: Generate professional A4 clinical PDF reports and share them instantly via WhatsApp or Email.
+- **Professional Math Explanation**: Every result includes a step-by-step mathematical breakdown.
+- **Smart Validation System**: Red asterisk (*) requirement system and clinical range placeholders.
+- **Clinical Reporting**: Generate professional A4 clinical PDF reports and share them instantly.
 - **CameraX Integration**: Capture and attach fictional lab reports directly to the patient case.
 
 ---
 
-## 📂 Project Architecture
+## 📂 Project Structure & Page Map
 
-The app follows a clean **MVVM (Model-View-ViewModel)** architecture, separating complex clinical math from the user interface.
+The app features a clean 9-page architecture designed for clinical efficiency:
 
-### **Page Structure (9 Screens)**
-1.  **Splash Screen**: Premium 3.5s animated entrance with clinical spinner.
-2.  **Welcome Screen**: Branding and high-level clinical overview.
-3.  **Workflow Selection**: Choice between Pre, Post, and Pre+Post methods.
-4.  **Patient Case Entry**: Collection of Age, Weight, Height, and SCr.
-5.  **Camera Preview**: CameraX interface for lab report capture.
-6.  **Therapy Input Form**: Dynamic dosing and concentration inputs.
-7.  **Review Inputs**: Final summary and validation check.
-8.  **Calculation Results**: Intermediate PK values, AUC24, and Interactive Graph.
-9.  **Math Explanation**: Step-by-step clinical math breakdown.
-
-### **Folder Hierarchy**
-```text
-tdm-insight-android/
-├── app/
-│   └── src/main/java/my/edu/aiu/app/tdm_insight_android/
-│       ├── engine/         <-- (Autoritative PK Formulas & Engine)
-│       ├── features/       <-- (Graphing, PDF Export, CameraX)
-│       ├── model/          <-- (Clinical Data Models)
-│       ├── ui/             <-- (Jetpack Compose Screen & Components)
-│       └── viewmodel/      <-- (Shared Clinical State Persistence)
-├── docs/                   <-- (Clinical Reference Materials)
-└── README.md               <-- (This Documentation)
-```
+1.  **Splash Screen** (3.5s Clinical Animation)
+2.  **Welcome Screen** (Overview & Branding)
+3.  **Workflow Selection** (Pre, Post, or Pre+Post selection)
+4.  **Patient Case Entry** (Age, Weight, Height, SCr collection)
+5.  **Camera Preview** (Lab report capture)
+6.  **Therapy Input Form** (Dynamic clinical parameters)
+7.  **Review Inputs** (Summary & final validation check)
+8.  **Calculation Results** (PK outputs & Dynamic Graph)
+9.  **Math Explanation** (Formula breakdowns)
 
 ---
 
 ## 👨‍💻 Team AIU Task Division
 
-Our team divided the work to ensure every clinical and technical requirement was met with high quality.
+Our team meticulously divided the responsibilities to ensure the highest clinical and technical standards.
 
-| Developer | Key Responsibilities & Work Done |
+| Developer | Responsibilities & Ownership |
 | :--- | :--- |
-| **Yalda Ashrafi** | **Project Lead & UI Architect**: Developed the core calculation engine, unified the Pink-to-Aqua UI theme, implemented the validation logic, and built the Splash and Workflow navigation. |
-| **Benat Siraj** | **Visualization & Logic**: Built the custom Canvas graph engine, the PDF Export system, CameraX integration, and the Patient Case management workflow. |
-| **Mohammad Elyas Yameen** | **Components & UX**: Developed the reusable Form components, the dynamic Simulation logic, the interactive Results interface, and the step-by-step Math Explanation engine. |
+| **Yalda Ashrafi** | **Project Lead & Engine Architect**: Core Calculation Engine (VancomycinEngine, PK Formulas), Input Validator logic, Navigation (AppNavigation, MainActivity), UI Theme & Color architecture, Splash/Workflow/Review/About screens, and all primary clinical documentation (Case Study, Formulas, Team Contribution). |
+| **Benat Siraj** | **Visualization & Logic Lead**: Custom Canvas Graphing (ConcentrationGraph), PDF Export System (SummaryExporter), History Feature, CameraX Integration, Patient Case Entry Screen, and project maintenance (README, CHANGELOG, APK generation, AI folder). |
+| **Mohammad Elyas Yameen** | **Components & UI/UX Lead**: Reusable Form Components, Therapy Input Form, Results Screen, Explanation Screen (Step-by-step math UI), Resource Management (Values, Drawables), Wireframes, Screenshots, and final Presentation visuals. |
 
 ---
 
@@ -81,7 +63,7 @@ Our team divided the work to ensure every clinical and technical requirement was
 - **Language**: Kotlin
 - **UI**: Jetpack Compose (Material 3)
 - **APIs**: CameraX, PdfDocument API, Coil 3
-- **Tools**: Android Studio, Git/GitHub, Robocopy (for clean deployments)
+- **Architecture**: MVVM (Model-View-ViewModel)
 
 ---
 
