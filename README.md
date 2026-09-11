@@ -55,7 +55,7 @@ Our team meticulously divided the responsibilities to ensure the highest clinica
 | :--- | :--- |
 | **Yalda Ashrafi** | **Project Lead & Engine Architect**: Core Calculation Engine (VancomycinEngine, PK Formulas), Input Validator logic, Navigation (AppNavigation, MainActivity), UI Theme & Color architecture, Splash/Workflow/Review/About screens, and all primary clinical documentation (Case Study, Formulas, Team Contribution). |
 | **Benat Siraj** | **Visualization & Logic Lead**: Custom Canvas Graphing (ConcentrationGraph), PDF Export System (SummaryExporter), History Feature, CameraX Integration, Patient Case Entry Screen, and project maintenance (README, CHANGELOG, APK generation, AI folder). |
-| **Mohammad Elyas Yameen** | **Components & UI/UX Lead**: Reusable Form Components, Therapy Input Form, Results Screen, Explanation Screen (Step-by-step math UI), Resource Management (Values, Drawables), Wireframes, Screenshots, and final Presentation visuals. |
+| **Mohammad Elyas Yameen** | **Components & UI/UX Lead**: Reusable Form Components, Therapy Input Form, Results Screen, Explanation Screen (Step-by-step math UI), Resource Management (Values, Drawables), Wireframes, and high-fidelity screenshots for project documentation. |
 
 ---
 
