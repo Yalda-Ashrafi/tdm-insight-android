@@ -8,15 +8,21 @@ Developed for the **Mobile Application Development (CDE2313)** course at Albukha
 
 ---
 
-## 📽️ Clinical Evidence & Demo
+## 📽️ Clinical Evidence
+
+Below are the posters representing the development and clinical logic of the application.
+
+| 1. Development | 2. Results & Information |
+| :---: | :---: |
+| ![Development](images/poster_1_development.png) | ![Results Info](images/poster_2_results_info.png) |
+
+| 3. Input & Simulation | 4. Home & Review |
+| :---: | :---: |
+| ![Input Simulation](images/poster_3_input_simulation.png) | ![Home Review](images/poster_4_home_review.png) |
 
 > [!TIP]
 > **Video Demonstration**: [Watch the App in Action](PASTE_YOUR_VIDEO_LINK_HERE)  
-> **High-Resolution Screenshots**: [View all Clinical Screens on Google Drive](PASTE_YOUR_SCREENSHOTS_LINK_HERE)
-
-| Welcome Screen | Clinical Input | Interactive Graph |
-| :---: | :---: | :---: |
-| ![Welcome](app/src/main/res/drawable/vancomycin_vial.jpg) | *Professional Form* | *Dynamic Simulation* |
+> **Full Quality Posters**: [View on Google Drive](PASTE_YOUR_SCREENSHOTS_LINK_HERE)
 
 ---
 
@@ -54,7 +60,7 @@ Our team meticulously divided the responsibilities to ensure the highest clinica
 
 | Developer | Responsibilities & Ownership |
 | :--- | :--- |
-| **Yalda Ashrafi** | **Project Lead & Engine Architect**: Core Calculation Engine (VancomycinEngine, PK Formulas), Input Validator logic, Navigation (AppNavigation, MainActivity), UI Theme & Color architecture, Splash/Workflow/Review/About screens, and all primary clinical documentation (Case Study, Formulas, Team Contribution). |
+| **Yalda Ashrafi** | **Project Lead, Engine Architect & Version Control Lead**: Designed the core Calculation Engine and PK Formulas. Acted as the **System Integrator**, responsible for merging all modules, managing the GitHub repository/branch orchestration, and ensuring architectural consistency across Navigation, Validation, and UI Themes. |
 | **Benat Siraj** | **Visualization & Logic Lead**: Custom Canvas Graphing (ConcentrationGraph), PDF Export System (SummaryExporter), History Feature, CameraX Integration, Patient Case Entry Screen, and project maintenance (README, CHANGELOG, AI folder). |
 | **Mohammad Elyas Yameen** | **Components & UI/UX Lead**: Reusable Form Components, Therapy Input Form, Results Screen, Explanation Screen (Step-by-step math UI), Resource Management (Values, Drawables), Wireframes, and high-fidelity screenshots for project documentation. |
 
