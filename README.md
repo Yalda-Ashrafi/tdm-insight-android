@@ -8,10 +8,11 @@ Developed for the **Mobile Application Development (CDE2313)** course at Albukha
 
 ---
 
-## 📽️ Demo & Screenshots
+## 📽️ Clinical Evidence & Demo
 
 > [!TIP]
-> **Video Demonstration**: [View the full App Demo on Google Drive](PASTE_YOUR_DRIVE_LINK_HERE)
+> **Video Demonstration**: [Watch the App in Action](PASTE_YOUR_VIDEO_LINK_HERE)  
+> **High-Resolution Screenshots**: [View all Clinical Screens on Google Drive](PASTE_YOUR_SCREENSHOTS_LINK_HERE)
 
 | Welcome Screen | Clinical Input | Interactive Graph |
 | :---: | :---: | :---: |
