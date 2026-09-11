@@ -61,7 +61,7 @@ Our team meticulously divided the responsibilities to ensure the highest clinica
 | Developer | Responsibilities & Ownership |
 | :--- | :--- |
 | **Yalda Ashrafi** | **Project Lead, Engine Architect & Version Control Lead**: Designed the core Calculation Engine and PK Formulas. Acted as the **System Integrator**, responsible for merging all modules, managing the GitHub repository/branch orchestration, and ensuring architectural consistency across Navigation, Validation, and UI Themes. |
-| **Benat Siraj** | **Visualization & Logic Lead**: Custom Canvas Graphing (ConcentrationGraph), PDF Export System (SummaryExporter), History Feature, CameraX Integration, Patient Case Entry Screen, and project maintenance (README, CHANGELOG, AI folder). |
+| **Benat Siraj** | **Visualization & Logic Lead**: Custom Canvas Graphing (ConcentrationGraph), PDF Export System (SummaryExporter), History Feature, CameraX Integration, Patient Case Entry Screen, and project maintenance (README, CHANGELOG, AI Transparency Log). |
 | **Mohammad Elyas Yameen** | **Components & UI/UX Lead**: Reusable Form Components, Therapy Input Form, Results Screen, Explanation Screen (Step-by-step math UI), Resource Management (Values, Drawables), Wireframes, and high-fidelity screenshots for project documentation. |
 
 ---
