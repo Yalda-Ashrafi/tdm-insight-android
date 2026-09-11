@@ -59,6 +59,21 @@ Our team meticulously divided the responsibilities to ensure the highest clinica
 
 ---
 
+## 🛠️ Installation Guide
+
+Follow these steps to set up and run the project locally from the **main** branch:
+
+1.  **Clone the repository**:
+    ```bash
+    git clone -b main https://github.com/Yalda-Ashrafi/tdm-insight-android.git
+    ```
+2.  **Open the project** in Android Studio (latest stable release recommended).
+3.  **Let Gradle sync** complete.
+4.  **Connect a device** or start an emulator (Minimum API level 26).
+5.  **Click Run ▶** to launch the application.
+
+---
+
 ## 🛠️ Technical Stack
 - **Language**: Kotlin
 - **UI**: Jetpack Compose (Material 3)
